@@ -1,4 +1,4 @@
-# tower01
+# panel01
 
-![tower](preview.gif)
+![panel](preview.png)
 
