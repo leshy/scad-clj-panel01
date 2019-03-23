@@ -1,524 +1,405 @@
 difference () {
-  cube ([146, 192, 1], center=true);
+  cube ([136, 182, 1], center=true);
   union () {
-    translate ([68, 91, 0]) {
+    translate ([63, 86, 0]) {
       cylinder (h=10, r=2, center=true);
     }
-    translate ([68, -91, 0]) {
+    translate ([63, -86, 0]) {
       cylinder (h=10, r=2, center=true);
     }
-    translate ([-68, -91, 0]) {
+    translate ([-63, -86, 0]) {
       cylinder (h=10, r=2, center=true);
     }
-    translate ([-68, 91, 0]) {
+    translate ([-63, 86, 0]) {
       cylinder (h=10, r=2, center=true);
     }
   }
-  translate ([-62.5, 0, 0]) {
+  translate ([-52, 0, 0]) {
     union () {
-      translate ([0, -81.25, 0]) {
+      translate ([0, -78, 0]) {
         union () {
           translate ([0, 0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([0, 12.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([0, 13, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([0, 25.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([0, 26, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([0, 37.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([0, 39, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([0, 50.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([0, 52, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([0, 62.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([0, 65, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([0, 75.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([0, 78, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([0, 87.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([0, 91, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([0, 100.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([0, 104, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([0, 112.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([0, 117, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([0, 125.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([0, 130, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([0, 137.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([0, 143, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([0, 150.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([0, 162.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([0, 156, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
         }
       }
-      translate ([0, -81.25, 0]) {
+      translate ([0, -78, 0]) {
         union () {
-          translate ([12.5, 0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([13, 0, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([12.5, 12.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([13, 13, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([12.5, 25.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([13, 26, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([12.5, 37.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([13, 39, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([12.5, 50.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([13, 52, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([12.5, 62.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([13, 65, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([12.5, 75.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([13, 78, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([12.5, 87.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([13, 91, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([12.5, 100.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([13, 104, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([12.5, 112.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([13, 117, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([12.5, 125.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([13, 130, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([12.5, 137.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([13, 143, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([12.5, 150.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([12.5, 162.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([13, 156, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
         }
       }
-      translate ([0, -81.25, 0]) {
+      translate ([0, -78, 0]) {
         union () {
-          translate ([25.0, 0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([26, 0, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([25.0, 12.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([26, 13, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([25.0, 25.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([26, 26, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([25.0, 37.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([26, 39, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([25.0, 50.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([26, 52, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([25.0, 62.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([26, 65, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([25.0, 75.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([26, 78, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([25.0, 87.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([26, 91, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([25.0, 100.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([26, 104, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([25.0, 112.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([26, 117, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([25.0, 125.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([26, 130, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([25.0, 137.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([26, 143, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([25.0, 150.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([25.0, 162.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([26, 156, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
         }
       }
-      translate ([0, -81.25, 0]) {
+      translate ([0, -78, 0]) {
         union () {
-          translate ([37.5, 0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([39, 0, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([37.5, 12.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([39, 13, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([37.5, 25.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([39, 26, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([37.5, 37.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([39, 39, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([37.5, 50.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([39, 52, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([37.5, 62.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([39, 65, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([37.5, 75.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([39, 78, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([37.5, 87.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([39, 91, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([37.5, 100.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([39, 104, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([37.5, 112.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([39, 117, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([37.5, 125.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([39, 130, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([37.5, 137.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([39, 143, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([37.5, 150.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([37.5, 162.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([39, 156, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
         }
       }
-      translate ([0, -81.25, 0]) {
+      translate ([0, -78, 0]) {
         union () {
-          translate ([50.0, 0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([52, 0, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([50.0, 12.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([52, 13, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([50.0, 25.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([52, 26, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([50.0, 37.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([52, 39, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([50.0, 50.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([52, 52, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([50.0, 62.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([52, 65, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([50.0, 75.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([52, 78, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([50.0, 87.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([52, 91, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([50.0, 100.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([52, 104, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([50.0, 112.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([52, 117, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([50.0, 125.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([52, 130, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([50.0, 137.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([52, 143, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([50.0, 150.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([50.0, 162.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([52, 156, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
         }
       }
-      translate ([0, -81.25, 0]) {
+      translate ([0, -78, 0]) {
         union () {
-          translate ([62.5, 0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([65, 0, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([62.5, 12.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([65, 13, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([62.5, 25.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([65, 26, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([62.5, 37.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([65, 39, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([62.5, 50.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([65, 52, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([62.5, 62.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([65, 65, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([62.5, 75.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([65, 78, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([62.5, 87.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([65, 91, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([62.5, 100.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([65, 104, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([62.5, 112.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([65, 117, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([62.5, 125.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([65, 130, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([62.5, 137.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([65, 143, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([62.5, 150.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([62.5, 162.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([65, 156, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
         }
       }
-      translate ([0, -81.25, 0]) {
+      translate ([0, -78, 0]) {
         union () {
-          translate ([75.0, 0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([78, 0, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([75.0, 12.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([78, 13, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([75.0, 25.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([78, 26, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([75.0, 37.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([78, 39, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([75.0, 50.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([78, 52, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([75.0, 62.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([78, 65, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([75.0, 75.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([78, 78, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([75.0, 87.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([78, 91, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([75.0, 100.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([78, 104, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([75.0, 112.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([78, 117, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([75.0, 125.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([78, 130, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([75.0, 137.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([78, 143, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([75.0, 150.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([75.0, 162.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([78, 156, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
         }
       }
-      translate ([0, -81.25, 0]) {
+      translate ([0, -78, 0]) {
         union () {
-          translate ([87.5, 0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([91, 0, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([87.5, 12.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([91, 13, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([87.5, 25.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([91, 26, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([87.5, 37.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([91, 39, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([87.5, 50.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([91, 52, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([87.5, 62.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([91, 65, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([87.5, 75.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([91, 78, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([87.5, 87.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([91, 91, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([87.5, 100.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([91, 104, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([87.5, 112.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([91, 117, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([87.5, 125.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([91, 130, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([87.5, 137.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([91, 143, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([87.5, 150.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([87.5, 162.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([91, 156, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
         }
       }
-      translate ([0, -81.25, 0]) {
+      translate ([0, -78, 0]) {
         union () {
-          translate ([100.0, 0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([104, 0, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([100.0, 12.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([104, 13, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([100.0, 25.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([104, 26, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([100.0, 37.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([104, 39, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([100.0, 50.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([104, 52, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([100.0, 62.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([104, 65, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([100.0, 75.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([104, 78, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([100.0, 87.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([104, 91, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([100.0, 100.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([104, 104, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([100.0, 112.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([104, 117, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([100.0, 125.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([104, 130, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([100.0, 137.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([104, 143, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
-          translate ([100.0, 150.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([100.0, 162.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-        }
-      }
-      translate ([0, -81.25, 0]) {
-        union () {
-          translate ([112.5, 0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([112.5, 12.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([112.5, 25.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([112.5, 37.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([112.5, 50.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([112.5, 62.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([112.5, 75.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([112.5, 87.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([112.5, 100.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([112.5, 112.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([112.5, 125.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([112.5, 137.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([112.5, 150.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([112.5, 162.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-        }
-      }
-      translate ([0, -81.25, 0]) {
-        union () {
-          translate ([125.0, 0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([125.0, 12.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([125.0, 25.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([125.0, 37.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([125.0, 50.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([125.0, 62.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([125.0, 75.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([125.0, 87.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([125.0, 100.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([125.0, 112.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([125.0, 125.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([125.0, 137.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([125.0, 150.0, 0]) {
-            cylinder (h=10, r=2.5, center=true);
-          }
-          translate ([125.0, 162.5, 0]) {
-            cylinder (h=10, r=2.5, center=true);
+          translate ([104, 156, 0]) {
+            cylinder (h=10, r=3, center=true);
           }
         }
       }

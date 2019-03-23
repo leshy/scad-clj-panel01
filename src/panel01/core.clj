@@ -14,10 +14,10 @@
 
 ;; settings
 (def wall 1)
-(def width 136)
-(def height 182)
+(def width 126)
+(def height 172)
 (def space 5)
-(def panelHoleR 2.5)
+(def panelHoleR 3)
 (def panelHoleStart 5)
 (def holeDistance (+ panelHoleR 10))
 
@@ -67,12 +67,17 @@
   panelHoles
    ))
 
-(def primitives
-  mainPanel)
+(def mountTube
+  (difference
+  (cylinder 4 15)
+  (cylinder 3 20)
+  )
+  )
 
 (defn -main
   [& args]
   (println "generatin")
-  (spit "panel01.scad" (write-scad primitives))
+  (spit "panel01.scad" (write-scad mainPanel))
+  (spit "tube.scad" (write-scad mountTube))
   )
 
